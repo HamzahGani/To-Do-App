@@ -19,7 +19,7 @@ const Greeting = () => {
     }
 
     return (
-        <h1 style={styles}>Good {timeOfDay}!</h1>
+        <main style={styles}>Good {timeOfDay}!</main>
     )
 }
 
