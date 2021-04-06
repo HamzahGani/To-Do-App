@@ -1,5 +1,6 @@
 import React from "react";
 import ContactCard from "./ContactCard";
+import LoggedIn from "./LoggedIn";
 
 let contact = {
     name:"Contact Name", 
@@ -29,6 +30,7 @@ class Footer extends React.Component {
             <div className="footer">
             <footer>Footer</footer>
             <ContactCard contact={contact} />
+            <LoggedIn />
         </div>
         )
     }
