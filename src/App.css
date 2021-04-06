@@ -58,6 +58,16 @@ input[type=checkbox]:focus {
   outline: 0;
 }
 
+.footer {
+  text-align: center;
+  
+}
+
+footer{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
 .App {
   text-align: center;
 }

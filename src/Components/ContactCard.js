@@ -1,5 +1,4 @@
 const ContactCard = (props) => {
-    console.log(props);
     return(
         <div className="contact-card">
             <img src={props.contact.imgUrl} alt="img" />
